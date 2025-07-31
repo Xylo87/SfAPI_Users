@@ -8,6 +8,13 @@ framework:
     #esi: true
     #fragments: true
 
+    http_client:
+        scoped_clients:
+            SfAPI_Users:
+                base_uri: https://randomuser.me/api/
+            # API_Test:
+            #     base_uri: https://API_Test/
+
 when@test:
     framework:
         test: true
