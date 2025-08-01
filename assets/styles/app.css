@@ -68,8 +68,16 @@ main {
     color: #666666;
 }
 
-.plus a {
-    text-decoration: none;
+.data button {
+    border: none;
+    background: none;
+}
+
+.data button:hover {
+    cursor: pointer;
+}
+
+.plus {
     color: #c80c54;
     font-size: 1.4rem;
 }
